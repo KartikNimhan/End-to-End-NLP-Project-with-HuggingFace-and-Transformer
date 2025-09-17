@@ -1,0 +1,28 @@
+[2025-09-16 21:37:25,072:INFO:main:Logging is Implemented]
+[2025-09-17 21:56:58,404:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-09-17 21:56:58,411:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-09-17 21:57:28,237:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-09-17 21:57:48,318:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-09-17 21:57:48,339:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-09-17 21:57:48,346:INFO:common:created directory at: artifacts]
+[2025-09-17 21:57:48,351:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-09-17 21:57:53,555:INFO:3327954121:File is Downloaded]
+[2025-09-17 22:22:36,457:INFO:main:stage Data Ingestion stage initialized]
+[2025-09-17 22:22:36,465:ERROR:main:'DataIngestionTrainingPipeline' object has no attribute '__initiate_data_ingestion']
+Traceback (most recent call last):
+  File "D:\MLOPs\End to end NLP Project with HuggingFace and Transformers\main.py", line 10, in <module>
+    data_ingestion_pipeline.__initiate_data_ingestion()
+AttributeError: 'DataIngestionTrainingPipeline' object has no attribute '__initiate_data_ingestion'
+[2025-09-17 22:22:44,354:INFO:main:stage Data Ingestion stage initialized]
+[2025-09-17 22:22:44,354:ERROR:main:'DataIngestionTrainingPipeline' object has no attribute 'initiate_data_ingestion']
+Traceback (most recent call last):
+  File "D:\MLOPs\End to end NLP Project with HuggingFace and Transformers\main.py", line 10, in <module>
+    data_ingestion_pipeline.initiate_data_ingestion()
+AttributeError: 'DataIngestionTrainingPipeline' object has no attribute 'initiate_data_ingestion'
+[2025-09-17 22:27:55,947:INFO:main:stage Data Ingestion stage initialized]
+[2025-09-17 22:27:55,948:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-09-17 22:27:55,948:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-09-17 22:27:55,948:INFO:common:created directory at: artifacts]
+[2025-09-17 22:27:55,948:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-09-17 22:27:59,748:INFO:data_ingestion:File is Downloaded]
+[2025-09-17 22:28:00,844:INFO:main:Stage Data Ingestion stage Completed]
