@@ -26,3 +26,249 @@ AttributeError: 'DataIngestionTrainingPipeline' object has no attribute 'initiat
 [2025-09-17 22:27:55,948:INFO:common:created directory at: artifacts/data_ingestion]
 [2025-09-17 22:27:59,748:INFO:data_ingestion:File is Downloaded]
 [2025-09-17 22:28:00,844:INFO:main:Stage Data Ingestion stage Completed]
+[2025-09-17 23:26:46,707:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-09-17 23:26:46,779:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-09-17 23:26:46,790:INFO:common:created directory at: artifacts]
+[2025-09-17 23:26:46,800:INFO:common:created directory at: artifacts/data_transformation]
+[2025-09-17 23:30:19,274:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-09-17 23:30:19,279:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-09-17 23:30:19,282:INFO:common:created directory at: artifacts]
+[2025-09-17 23:30:19,285:INFO:common:created directory at: artifacts/data_transformation]
+[2025-09-17 23:31:05,177:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-09-17 23:31:05,180:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-09-17 23:31:05,182:INFO:common:created directory at: artifacts]
+[2025-09-17 23:31:05,185:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-09-17 23:31:09,125:INFO:3327954121:File is Downloaded]
+[2025-09-17 23:31:14,237:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-09-17 23:31:14,239:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-09-17 23:31:14,241:INFO:common:created directory at: artifacts]
+[2025-09-17 23:31:14,242:INFO:common:created directory at: artifacts/data_transformation]
+[2025-09-17 23:32:33,965:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-09-17 23:32:33,969:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-09-17 23:32:33,971:INFO:common:created directory at: artifacts]
+[2025-09-17 23:32:33,974:INFO:common:created directory at: artifacts/data_transformation]
+[2025-09-17 23:34:06,933:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-09-17 23:34:06,944:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-09-17 23:34:06,950:INFO:common:created directory at: artifacts]
+[2025-09-17 23:34:06,958:INFO:common:created directory at: artifacts/data_transformation]
+[2025-09-18 18:01:16,902:INFO:main:stage Data Ingestion stage initialized]
+[2025-09-18 18:01:16,954:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-09-18 18:01:16,999:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-09-18 18:01:17,002:INFO:common:created directory at: artifacts]
+[2025-09-18 18:01:17,004:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-09-18 18:01:17,005:INFO:data_ingestion:Fille already exist]
+[2025-09-18 18:01:17,677:INFO:main:Stage Data Ingestion stage Completed]
+[2025-09-18 18:01:17,678:INFO:main:stage Data Transformation stage initialized]
+[2025-09-18 18:01:17,690:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-09-18 18:01:17,693:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-09-18 18:01:17,695:INFO:common:created directory at: artifacts]
+[2025-09-18 18:01:17,696:ERROR:main:'ConfigurationManager' object has no attribute 'get_data_transformation_config']
+Traceback (most recent call last):
+  File "D:\MLOPs\End to end NLP Project with HuggingFace and Transformers\main.py", line 21, in <module>
+    data_ingestion_pipeline.initiate_data_transformation()
+  File "D:\MLOPs\End to end NLP Project with HuggingFace and Transformers\src\textSummarizer\pipeline\stage_2_data_transformation_pipeline.py", line 12, in initiate_data_transformation
+    data_transformation_config=config.get_data_transformation_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_transformation_config'
+[2025-09-18 18:05:20,975:INFO:main:stage Data Ingestion stage initialized]
+[2025-09-18 18:05:20,989:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-09-18 18:05:20,989:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-09-18 18:05:20,991:INFO:common:created directory at: artifacts]
+[2025-09-18 18:05:20,991:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-09-18 18:05:20,991:INFO:data_ingestion:Fille already exist]
+[2025-09-18 18:05:21,172:INFO:main:Stage Data Ingestion stage Completed]
+[2025-09-18 18:05:21,173:INFO:main:stage Data Transformation stage initialized]
+[2025-09-18 18:05:21,175:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-09-18 18:05:21,176:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-09-18 18:05:21,177:INFO:common:created directory at: artifacts]
+[2025-09-18 18:05:21,178:INFO:common:created directory at: artifacts/data_transformation]
+[2025-09-18 18:05:21,179:ERROR:main:"'ConfigBox' object has no attribute 'max_input_length'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'max_input_length'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'max_input_length'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'max_input_length'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'max_input_length'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'max_input_length'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'max_input_length'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'max_input_length'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\MLOPs\End to end NLP Project with HuggingFace and Transformers\main.py", line 21, in <module>
+    data_ingestion_pipeline.initiate_data_transformation()
+  File "D:\MLOPs\End to end NLP Project with HuggingFace and Transformers\src\textSummarizer\pipeline\stage_2_data_transformation_pipeline.py", line 12, in initiate_data_transformation
+    data_transformation_config=config.get_data_transformation_config()
+  File "D:\MLOPs\End to end NLP Project with HuggingFace and Transformers\src\textSummarizer\config\configuration.py", line 80, in get_data_transformation_config
+    max_input_length=self.params.max_input_length,
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'max_input_length'"
+[2025-09-18 18:06:03,246:INFO:main:stage Data Ingestion stage initialized]
+[2025-09-18 18:06:03,254:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-09-18 18:06:03,254:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-09-18 18:06:03,254:INFO:common:created directory at: artifacts]
+[2025-09-18 18:06:03,254:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-09-18 18:06:03,254:INFO:data_ingestion:Fille already exist]
+[2025-09-18 18:06:03,494:INFO:main:Stage Data Ingestion stage Completed]
+[2025-09-18 18:06:03,497:INFO:main:stage Data Transformation stage initialized]
+[2025-09-18 18:06:03,500:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-09-18 18:06:03,500:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-09-18 18:06:03,504:INFO:common:created directory at: artifacts]
+[2025-09-18 18:06:03,506:INFO:common:created directory at: artifacts/data_transformation]
+[2025-09-18 18:06:03,508:ERROR:main:"'ConfigBox' object has no attribute 'max_input_length'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'max_input_length'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'max_input_length'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'max_input_length'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'max_input_length'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'max_input_length'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'max_input_length'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'max_input_length'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\MLOPs\End to end NLP Project with HuggingFace and Transformers\main.py", line 21, in <module>
+    data_ingestion_pipeline.initiate_data_transformation()
+  File "D:\MLOPs\End to end NLP Project with HuggingFace and Transformers\src\textSummarizer\pipeline\stage_2_data_transformation_pipeline.py", line 12, in initiate_data_transformation
+    data_transformation_config=config.get_data_transformation_config()
+  File "D:\MLOPs\End to end NLP Project with HuggingFace and Transformers\src\textSummarizer\config\configuration.py", line 80, in get_data_transformation_config
+    max_input_length=self.params.max_input_length,
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'max_input_length'"
+[2025-09-18 18:06:51,279:INFO:main:stage Data Ingestion stage initialized]
+[2025-09-18 18:06:51,279:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-09-18 18:06:51,304:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-09-18 18:06:51,306:INFO:common:created directory at: artifacts]
+[2025-09-18 18:06:51,307:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-09-18 18:06:51,308:INFO:data_ingestion:Fille already exist]
+[2025-09-18 18:06:51,470:INFO:main:Stage Data Ingestion stage Completed]
+[2025-09-18 18:06:51,470:INFO:main:stage Data Transformation stage initialized]
+[2025-09-18 18:06:51,473:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-09-18 18:06:51,475:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-09-18 18:06:51,475:INFO:common:created directory at: artifacts]
+[2025-09-18 18:06:51,476:INFO:common:created directory at: artifacts/data_transformation]
+[2025-09-18 18:06:51,476:ERROR:main:'DataTransformationConfig' object is not callable]
+Traceback (most recent call last):
+  File "D:\MLOPs\End to end NLP Project with HuggingFace and Transformers\main.py", line 21, in <module>
+    data_ingestion_pipeline.initiate_data_transformation()
+  File "D:\MLOPs\End to end NLP Project with HuggingFace and Transformers\src\textSummarizer\pipeline\stage_2_data_transformation_pipeline.py", line 13, in initiate_data_transformation
+    data_transformation=DataTransformation(config=data_transformation_config())
+TypeError: 'DataTransformationConfig' object is not callable
+[2025-09-18 18:07:56,451:INFO:main:stage Data Ingestion stage initialized]
+[2025-09-18 18:07:56,451:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-09-18 18:07:56,462:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-09-18 18:07:56,463:INFO:common:created directory at: artifacts]
+[2025-09-18 18:07:56,464:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-09-18 18:07:56,464:INFO:data_ingestion:Fille already exist]
+[2025-09-18 18:07:56,683:INFO:main:Stage Data Ingestion stage Completed]
+[2025-09-18 18:07:56,684:INFO:main:stage Data Transformation stage initialized]
+[2025-09-18 18:07:56,685:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-09-18 18:07:56,692:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-09-18 18:07:56,693:INFO:common:created directory at: artifacts]
+[2025-09-18 18:07:56,694:INFO:common:created directory at: artifacts/data_transformation]
+[2025-09-18 18:08:01,294:ERROR:main:'DataTransformation' object has no attribute 'convert_dataset']
+Traceback (most recent call last):
+  File "D:\MLOPs\End to end NLP Project with HuggingFace and Transformers\main.py", line 21, in <module>
+    data_ingestion_pipeline.initiate_data_transformation()
+  File "D:\MLOPs\End to end NLP Project with HuggingFace and Transformers\src\textSummarizer\pipeline\stage_2_data_transformation_pipeline.py", line 14, in initiate_data_transformation
+    data_transformation.convert_dataset()
+AttributeError: 'DataTransformation' object has no attribute 'convert_dataset'
+[2025-09-18 18:10:32,763:INFO:main:stage Data Ingestion stage initialized]
+[2025-09-18 18:10:32,763:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-09-18 18:10:32,770:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-09-18 18:10:32,770:INFO:common:created directory at: artifacts]
+[2025-09-18 18:10:32,770:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-09-18 18:10:32,772:INFO:data_ingestion:Fille already exist]
+[2025-09-18 18:10:32,919:INFO:main:Stage Data Ingestion stage Completed]
+[2025-09-18 18:10:32,919:INFO:main:stage Data Transformation stage initialized]
+[2025-09-18 18:10:32,919:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-09-18 18:10:32,919:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-09-18 18:10:32,919:INFO:common:created directory at: artifacts]
+[2025-09-18 18:10:32,919:INFO:common:created directory at: artifacts/data_transformation]
+[2025-09-18 18:10:36,154:INFO:data_transformation:Tokenizing dataset... this may take a few minutes.]
+[2025-09-18 18:10:47,963:INFO:main:Stage Data Transformation stage Completed]
+[2025-09-18 18:12:01,040:INFO:main:stage Data Ingestion stage initialized]
+[2025-09-18 18:12:01,044:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-09-18 18:12:01,046:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-09-18 18:12:01,046:INFO:common:created directory at: artifacts]
+[2025-09-18 18:12:01,048:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-09-18 18:12:01,048:INFO:data_ingestion:Fille already exist]
+[2025-09-18 18:12:01,245:INFO:main:Stage Data Ingestion stage Completed]
+[2025-09-18 18:12:01,246:INFO:main:stage Data Transformation stage initialized]
+[2025-09-18 18:12:01,249:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-09-18 18:12:01,251:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-09-18 18:12:01,252:INFO:common:created directory at: artifacts]
+[2025-09-18 18:12:01,253:INFO:common:created directory at: artifacts/data_transformation]
+[2025-09-18 18:12:05,509:INFO:data_transformation:Tokenizing dataset... this may take a few minutes.]
+[2025-09-18 18:12:06,567:INFO:data_transformation:Tokenized dataset saved successfully at artifacts/data_transformation\samsum_dataset]
+[2025-09-18 18:12:06,733:INFO:main:Stage Data Transformation stage Completed]
